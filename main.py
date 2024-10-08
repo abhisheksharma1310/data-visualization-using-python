@@ -5,7 +5,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # Initialize Serial Communication
-arduino = serial.Serial(port='COM15', baudrate=9600, timeout=1)  # Adjust 'COM3' as needed
+arduino = serial.Serial(port='COM15', baudrate=9600, timeout=1)  # Adjust 'COM15' as needed
 time.sleep(2)
 
 # Function to send commands to Arduino
